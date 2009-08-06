@@ -99,7 +99,7 @@
 		<div class="box">
 			<h1>Download</h1>
 			<ul>
-				<li><a href="mooswitch-<?=$version?>.zip">mooswitch-<?=$version?>.zip</a></li>
+				<li><a href="http://github.com/reaktivo/mooswitch/tree/master">MooSwitch at GitHub</a></li>
 			</ul>
 		</div>
 		<div class="box">
