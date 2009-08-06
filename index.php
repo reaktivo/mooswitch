@@ -9,7 +9,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	
-	<title>mooSwitch <?=$version?></title>
+	<title>MooSwitch <?=$version?></title>
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -30,7 +30,7 @@
 <body>
 	<div id="container" class="clearfix">
 		<div class="header">
-			<h1>mooSwitch <?=$version?></h1>
+			<h1>MooSwitch <?=$version?></h1>
 			<h2>By Marcel Miranda</h2>
 		</div>
 		<div class="box rcol">
@@ -83,7 +83,7 @@
 		<div class="box">
 			<h1>Description</h1>
 			<p><strong>MooSwitch</strong> is a iPhone / Time Machine style switch or toggle button for <a href="http://mootools.net/download/tags/1-2b2">MooTools 1.2b</a>, which you initiate this way:</p>
-			<pre>var mySwitch = new mooSwitch('radioset');</pre>
+			<pre>var mySwitch = new MooSwitch('radioset');</pre>
 			<p>Where <strong>radioset</strong> is a the name of a pair of input&#x27;s with their corresponding label&#x27;s. </p>
 			<p>There are three ways of toggleing, you can drag the handle to a side, click the label, or if the labels are placed outside, clicking the scroll area (the handle background).
 			MooSwitch takes care of hiding the Radio inputs and their labels tags if they have.</p>
@@ -140,18 +140,18 @@
 					$('editparams').set('text', hide_str);
 				}
 			});
-			/*mooSwitch*/
-			new mooSwitch('example', {
+			/*MooSwitch*/
+			new MooSwitch('example', {
 				label_position: "<?=isset($_POST['lbl_pos']) ? $_POST['lbl_pos'] : 'outside'?>",
 				hide_labels: <?=isset($_POST['lbl_show']) ? $_POST['lbl_show'] : 'false'?>,
 				hide_radios: <?=isset($_POST['rb_show']) ? $_POST['rb_show'] : 'true'?>,
 				drag_opacity: <?=isset($_POST['drag_opacity']) ? $_POST['drag_opacity'] : 1?>
 			});
 			
-			new mooSwitch('lbl_show', {label_position:'outside'});
-			new mooSwitch('rb_show', {label_position:'outside'});
-			new mooSwitch('lbl_pos', {label_position:'outside'});
-			new mooSwitch('drag_opacity', {label_position:'outside'});
+			new MooSwitch('lbl_show', {label_position:'outside'});
+			new MooSwitch('rb_show', {label_position:'outside'});
+			new MooSwitch('lbl_pos', {label_position:'outside'});
+			new MooSwitch('drag_opacity', {label_position:'outside'});
 			
 			
 		});
