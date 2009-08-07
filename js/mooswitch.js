@@ -1,11 +1,11 @@
-/*
-	@description	MooTools based iPhone-like switch button, for replacing checkboxes
-	@version		0.7
-	@author			Marcel Miranda Ackerman < reaktivo.com >
-	@license 		MIT Style License.
-	@date			2008-04-06
-	@updated		2009-08-06
-	@dependencies	mootools 1.2
+/*!
+ *	@description	MooTools based iPhone-like switch button, for replacing checkboxes
+ *	@version		0.7
+ *	@author			Marcel Miranda Ackerman < reaktivo.com >
+ *	@license 		MIT Style License.
+ *	@date			2008-04-06
+ *	@updated		2009-08-06
+ *	@dependencies	mootools 1.2
 */
 var MooSwitch = new Class({
 	Extends: Drag.Move,

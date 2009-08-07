@@ -1,5 +1,5 @@
 cd ~/Documents/mooswitch
-
+java -jar /usr/local/bin/yuicompressor.jar -o ./js/mooswitch-yui-compressed.js ./js/mooswitch.js
 rsync -avz --progress --exclude ".git" ./ reaktivo@reaktivo.com:~/reaktivo.com/mt/mooswitch
 git commit -a -m "$*"
 git push github master
