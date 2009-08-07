@@ -78,9 +78,7 @@
 	<script type="text/javascript" src="js/mooswitch.js"></script>
 	<script type="text/javascript">
 		window.addEvent('domready', function(){
-			new MooSwitch('example_checkbox', {
-				labels_outside: false
-			});
+			new MooSwitch('example_checkbox');
 		});
 	</script>
 </body>
