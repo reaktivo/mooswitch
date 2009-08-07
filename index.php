@@ -1,7 +1,3 @@
-<?
-	$version = '0.6.1';
-	$last_update = '2009.08.06';
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -9,7 +5,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	
-	<title>MooSwitch <?=$version?></title>
+	<title>MooSwitch</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -20,7 +16,7 @@
 <body>
 	<div id="container" class="clearfix">
 		<div class="header">
-			<h1>MooSwitch <?=$version?></h1>
+			<h1>MooSwitch</h1>
 			<h2>By Marcel Miranda</h2>
 		</div>
 		<div class="box rcol">
