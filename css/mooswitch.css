@@ -3,7 +3,7 @@
 	display:block;
 	position:relative;
 }
-.switchbox .scrollarea{
+.switchbox .background{
 	width:95px;
 	height:29px;
 	background:url(../images/track.png) no-repeat;

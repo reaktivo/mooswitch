@@ -96,6 +96,7 @@ div.box{
 }
 div.box h1{
 	font-size:0.8em;
+	font-weight:bold;
 	width:100%;
 	line-height:1.8em;
 	text-indent:10px;
@@ -136,7 +137,7 @@ div.rcol {
 }
 
 div.box form {
-	margin: 0 auto 20px;
+	margin: 0 auto 0;
 	padding:0;
 	text-align:center;
 	display:block;
@@ -154,6 +155,7 @@ div.ad form input[type=image] {
 div.box div.postdata{
 	border-left:1px solid #CCC;
 	background:#D8D8D8;
+	overflow: hidden;
 }
 
 div.box div.postdata h1{
@@ -170,7 +172,8 @@ div.box div.postdata h1{
 
 #switchbox_example {
 	background:#A2ABB4;
-	padding:5px 0;	
+	padding:5px 0;
+	z-index: 1;
 }
 
 .clearfix:after {
