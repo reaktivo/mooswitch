@@ -20,7 +20,7 @@ var MooSwitch = new Class({
 			unchecked: 'No',
 			checked: 'Yes'
 		},
-		label_bg: 'light',
+		hide_checkbox: true,
 		drag_opacity: 1,
 		mouse_over_handle: false
 	},
@@ -48,10 +48,7 @@ var MooSwitch = new Class({
 		//Hide Radioboxes and their labels
 		this.checkbox = $(selector);
 		this.container.inject(this.checkbox, 'after');
-		
-		if(this.options.label_bg == 'light'){
-			this.labels.addClass('light_bg');
-		}
+
 		this.left_label.set('text', this.options.labels_outside ? this.options.labels.unchecked : this.options.labels.checked);
 		this.right_label.set('text', this.options.labels_outside ? this.options.labels.checked : this.options.labels.unchecked);
 		
@@ -77,6 +74,7 @@ var MooSwitch = new Class({
 		}
 		this.handle.setStyle('left', this.bg.getStyle('left'));
 		
+		if(this.options.hide_checkbox) this.checkbox.setStyle('display', 'none');
 		
 		if(this.checkbox.checked == true) this.goTo.bind(this, [1, 0])();
 	
