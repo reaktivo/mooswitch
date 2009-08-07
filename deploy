@@ -1,0 +1,5 @@
+cd ~/Documents/mooswitch
+
+rsync -avz --progress --exclude ".git" ./ reaktivo@reaktivo.com:~/reaktivo.com/mt/mooswitch
+git commit -a -m "$*"
+git push github master
