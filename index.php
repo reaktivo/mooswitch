@@ -34,10 +34,12 @@
 		<div class="box">
 			<h1>Description</h1>
 			<p><strong>MooSwitch</strong> is a iPhone / Time Machine style switch or toggle button for <a href="http://mootools.net/">MooTools 1.2</a>, which you initiate this way:</p>
-			<pre>var mySwitch = new MooSwitch('radioset');</pre>
-			<p>Where <strong>radioset</strong> is a the name of a pair of input&#x27;s with their corresponding label&#x27;s. </p>
+			<pre>var mySwitch = new MooSwitch('checkbox_id');</pre>
+			<p>Or:</p>
+			<pre>new MooSwitch($$('.checkboxes_class'))</pre>
+			
 			<p>There are three ways of toggleing, you can drag the handle to a side, click the label, or if the labels are placed outside, clicking the scroll area (the handle background).
-			MooSwitch takes care of hiding the Radio inputs and their labels tags if they have.</p>
+			MooSwitch takes care of hiding the Checkbox inputs.</p>
 		</div>
 		<div class="box">
 			<h1>License</h1>
@@ -45,7 +47,7 @@
 		</div>
 		<div class="box">
 			<h1>Browser Compatibility</h1>
-			<p>MooSwitch has been tested successfully in Safari 3, Firefox 2 and 3b. But it probably works on other browser too.</p>
+				<p>MooSwitch has been tested successfully in Safari 3 and Firefox 3. IE coming soon.</p>
 		</div>
 		<div class="box">
 			<h1>Download</h1>
