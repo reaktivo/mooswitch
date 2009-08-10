@@ -15,9 +15,11 @@
 
 <body>
 	<div id="container" class="clearfix">
+		
 		<div class="header">
 			<h1>MooSwitch</h1>
 			<h2>By Marcel Miranda</h2>
+			<a href="http://github.com/reaktivo/mooswitch"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
 		</div>
 		<div class="box rcol">
 			<h1>Try It</h1>
